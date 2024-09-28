@@ -1,4 +1,4 @@
-# Keypad-Interfacing-With-STM32F407-Discovery-Kit
+
 
 Name: BHARGAV GORIVALE
 
@@ -14,7 +14,7 @@ Mentor : NEELA SANTOSH KUMAR
 
 # **Overview of the Project**
 
-## **Project : LED BLINKING WITH ARDUINO**
+## **Project :  Keypad Interfacing With STM32F407 Discovery-Kit**
 
 ### **Objective**
 The project aims to interface a 4x4 matrix keypad with the STM32F407 Discovery board.
