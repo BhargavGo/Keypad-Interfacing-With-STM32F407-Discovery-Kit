@@ -31,5 +31,13 @@ The project interfaces a 4x4 matrix keypad with the STM32F407 Discovery Board, s
       
 2. STM32F407 Discovery Board:
     - ARM Cortex-M4-based microcontroller.
+  
+### **Programming Details :**
+
+1. GPIO Configuration: GPIOD pins PD0-PD3 are configured as output for rows, and PD8-PD11 are set as input for columns.
+
+2.Key Detection: Rows are sequentially driven low, and the program checks if any column goes low to detect a key press.
+
+3.Debouncing: A simple for-loop-based delay is used to avoid bouncing effects common in mechanical keypads.
 
 This project provides a foundational understanding of how to control hardware through software, serving as an introductory step
