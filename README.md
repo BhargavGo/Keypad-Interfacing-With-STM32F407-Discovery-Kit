@@ -15,28 +15,20 @@ Mentor : Kiran Nayak
 ## **Project :  Keypad Interfacing With STM32F407 Discovery-Kit**
 
 ### **Objective**
-The project aims to interface a 4x4 matrix keypad with the STM32F407 Discovery board.
+The project interfaces a 4x4 matrix keypad with the STM32F407 Discovery Board, scanning rows and columns to detect key presses, without using the HAL library.
 
 ### **Key Activities**
+Low-Level Register Manipulation:
 
-1. Understanding the Built-in LED:
+Configuring GPIO pins and reading input/output values using direct register access.
 
-    - Identify the built-in LED on the Arduino board, typically connected to digital pin 13.
+Row-Column Scanning: 
 
-2. Writing the Program:
-    - Develop a simple Arduino sketch to control the blinking of the built-in LED.
-    - Utilize key functions such as pinMode(), digitalWrite(), and delay() to manage the LED's state and timing.
-      
-4. Uploading and Executing the Code:
-    - Upload the written code to the Arduino board using the Arduino IDE.
-    - Observe the behavior of the built-in LED as it blinks according to the programmed interval.
-      
-6. Experimentation and Modification:
-    - Experiment by modifying the blinking interval in the code to see how it affects the LED's behavior.
-    - Test different delay times and observe the changes in the blinking speed.
+Sequentially activating rows and checking columns to detect which key is pressed.
 
-7. Troubleshooting:
-    - Debug common issues such as incorrect pin configuration or syntax errors in the code.
+Debouncing:
+
+Implemented with a simple delay to prevent multiple detections from one keypress.
 
 ### **Technologies Used**
 
