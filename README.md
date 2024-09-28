@@ -2,15 +2,13 @@
 
 Name: BHARGAV GORIVALE
 
-Company: CODETECH IT SOLUTIONS
-
-ID : CT08DS7688
+Company: FastBit Embedded Brain Academy
 
 Domain : Embedded Systems
 
-Duration : Aug to Sept 2024
+Duration : Sept 2024
 
-Mentor : NEELA SANTOSH KUMAR
+Mentor : Kiran Nayak
 
 # **Overview of the Project**
 
