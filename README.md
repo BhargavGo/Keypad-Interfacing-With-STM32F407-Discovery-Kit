@@ -129,3 +129,10 @@ The project interfaces a 4x4 matrix keypad with the STM32F407 Discovery Board, s
 7. Debouncing:
    
       - The delay() function is called after each detection to ensure that mechanical bouncing of the keypad doesn't cause false detections.
+
+
+### **Keypad Layout Corresponding to the Program:**
+![KeypadInterfacing](https://github.com/user-attachments/assets/9f43bada-9755-48a8-b3ac-e141686fe3cd)
+
+
+        
