@@ -18,17 +18,11 @@ Mentor : Kiran Nayak
 The project interfaces a 4x4 matrix keypad with the STM32F407 Discovery Board, scanning rows and columns to detect key presses, without using the HAL library.
 
 ### **Key Activities**
-Low-Level Register Manipulation:
+1.Low-Level Register Manipulation:Configuring GPIO pins and reading input/output values using direct register access.
 
-Configuring GPIO pins and reading input/output values using direct register access.
+2.Row-Column Scanning: Sequentially activating rows and checking columns to detect which key is pressed.
 
-Row-Column Scanning: 
-
-Sequentially activating rows and checking columns to detect which key is pressed.
-
-Debouncing:
-
-Implemented with a simple delay to prevent multiple detections from one keypress.
+3.Debouncing:Implemented with a simple delay to prevent multiple detections from one keypress.
 
 ### **Technologies Used**
 
