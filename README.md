@@ -26,11 +26,10 @@ The project interfaces a 4x4 matrix keypad with the STM32F407 Discovery Board, s
 
 ### **Technologies Used**
 
-1. Arduino Platform:
-    - Arduino Board: A microcontroller board with a built-in LED, typically connected to digital pin 13.
-    - Arduino IDE: The integrated development environment used to write, compile, and upload code to the Arduino board.
+1. Embedded C:
+    - Low-level programming for register control.
       
-2. Programming Languages:
-    - C++ : The programming languages used to write the Arduino sketch.
+2. STM32F407 Discovery Board:
+    - ARM Cortex-M4-based microcontroller.
 
 This project provides a foundational understanding of how to control hardware through software, serving as an introductory step
